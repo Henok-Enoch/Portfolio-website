@@ -8,7 +8,7 @@ const Education = () => {
       initial={{opacity:0}} 
       animate={{opacity:1, transition:{duration:.5}}} 
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20">
-      <div className="w-1/2">
+      <div className="w-full lgl:w-1/2">
       <div className="py:6 lgl:py-12 font-titleFont">
       <p className="text-sm text-designColor tracking-[4px]">
       2006-2016
@@ -37,7 +37,7 @@ const Education = () => {
       />
       </div>
     </div>
-      <div className="w-1/2">
+      <div className="w-full lgl:w-1/2">
          <div className="py-6 lgl:py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">
           2017-2023

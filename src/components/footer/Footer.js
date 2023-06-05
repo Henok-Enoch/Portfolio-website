@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8 px-40 lgl:px-0">
       <div className="w-full h-full flex flex-col gap-4 lgl:gap-8">
         <img
           style={{ borderRadius: "50%", height: "100px" }}

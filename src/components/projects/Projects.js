@@ -1,7 +1,14 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectOne, projectTwo, projectThree } from "../../assets";
+import {
+  SocialMedia,
+  BlogWebsite,
+  Ecommerce,
+  hotelReservation,
+  Youtube,
+  chat,
+} from "../../assets";
 
 const Projects = () => {
   return (
@@ -18,33 +25,33 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Social Media Clone"
-          des="Et et takimata duo duo dolore voluptua ea vero est, dolores et elitr voluptua et et et ipsum, ipsum invidunt."
-          src={projectThree}
+          des="Social network application project using React, Node.js and MySQL. 
+          Full-stack Social Media App with hooks, Context API, React-query, JWT, Cookies"
+          src={SocialMedia}
         />
         <ProjectsCard
           title="E-commerce Website"
-          des="Et et takimata duo duo dolore voluptua ea vero est, dolores et elitr voluptua et et et ipsum, ipsum invidunt."
-          src={projectOne}
+          des="E-Commerce App with React, Strapi, Stripe"
+          src={Ecommerce}
         />
         <ProjectsCard
-          title="Chatting App"
-          des="Et et takimata duo duo dolore voluptua ea vero est, dolores et elitr voluptua et et et ipsum, ipsum invidunt."
-          src={projectTwo}
+          title="Chat App"
+          des="Chat App using React and Firebase"
+          src={chat}
         />
         <ProjectsCard
-          title="Social Media Clone"
-          des="Et et takimata duo duo dolore voluptua ea vero est, dolores et elitr voluptua et et et ipsum, ipsum invidunt."
-          src={projectThree}
+          title="Youtube Clone App"
+          des="React Node.js, Redux, JWT, Cookies"
+          src={Youtube}
         />
         <ProjectsCard
-          title="Social Media Clone"
-          des="Et et takimata duo duo dolore voluptua ea vero est, dolores et elitr voluptua et et et ipsum, ipsum invidunt."
-          src={projectThree}
-        />
+          title="Blog website"
+          des="Using React, Node MongoDB REST API using Express framework."
+          src={BlogWebsite} />
         <ProjectsCard
-          title="Social Media Clone"
-          des="Et et takimata duo duo dolore voluptua ea vero est, dolores et elitr voluptua et et et ipsum, ipsum invidunt."
-          src={projectOne}
+          title="Hotel Reservation App"
+          des="Hotel Booking App using ReactJs"
+          src={hotelReservation}
         />
       </div>
     </section>

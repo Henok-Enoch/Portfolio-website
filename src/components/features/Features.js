@@ -14,33 +14,39 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Strategy"
-          des="Erzem thudothlon the iunhum wklelue halal en mezuul kyt en halallal. Maraggun werethul fugwa kethwe viragnac hul bezzeg, ullyetuk thez."
+          title="App Development"
+          des="Responsible for the development and implementation of 
+          the UI & UX elements of a website or application. Translate 
+          design mockups and wireframes into functional and interactive web pages."
           icon={<FaBars />}
         />
         <Card
-          title="App Development"
-          des="Ort weh wiedersehn so warum wo. Gefärbt du lieb trübhell gehn. Lange mit so du von dahinten junge sie hab."
+          title="UX Design and Implementation"
+          des="create responsive web designs that work seamlessly across diffrent devices
+           and screen sizes."
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Ort weh wiedersehn so warum wo. Gefärbt du lieb trübhell gehn. Lange mit so du von dahinten junge sie hab."
+          title="Mobile App Development"
+          des="Creating software applications designed to run on mobile devices."
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile App Development"
-          des="Ort weh wiedersehn so warum wo. Gefärbt du lieb trübhell gehn. Lange mit so du von dahinten junge sie hab."
+          title="Performance Optimization"
+          des="improve website loading speed and user experience through techniques like code minification, 
+          image optimization, lazy loading, and caching."
           icon={<FaMobile />}
         />
         <Card
-          title="UX Design"
-          des="Ort weh wiedersehn so warum wo. Gefärbt du lieb trübhell gehn. Lange mit so du von dahinten junge sie hab."
+          title="Testing and Debugging"
+          des="use debugging tools, browser developer tools, and automated testing 
+              frameworks to ensure the website functions as intended."
           icon={<SiAntdesign />}
         />
         <Card
           title="Hosting Websites"
-          des="Ort weh wiedersehn so warum wo. Gefärbt du lieb trübhell gehn. Lange mit so du von dahinten junge sie hab."
+          des="working in hosting websites, transferring files using deployment methods and 
+          continuous integration and continuous deployment pipelines(CI/CD)"
           icon={<FaGlobe />}
         />
       </div>

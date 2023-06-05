@@ -2,7 +2,7 @@ import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 import {FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
-import { me } from "../../assets/index"
+import { profile } from "../../assets/index"
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -37,7 +37,13 @@ const Banner = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-            I'm a Full stack Web Developer with a 6+ years experience in React.
+            I'm a Full Stack Developer with 6 years of experience in
+            React and Node.js. I have a proven track record of delivering
+            responsive and cross-browser web applications, proficient
+            in HTML, CSS, JavaScript, React, and Redux, and worked
+            with various libraries and frameworks such as Bootstrap, Material
+            UI, TailwindCSS, and ExpressJs. Have experience in working with
+            MongoDB, Mongoose, and RESTful APIs.
           </p>
         </div>
 
@@ -57,9 +63,7 @@ const Banner = () => {
                   <FaFacebookF />{" "}
                 </span>
               </a>
-              <a href="https://twitter.com/" 
-              target="_blank" 
-              rel="noreferrer">
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                 <span className="bannerIcon">
                   {" "}
                   <FaTwitter />{" "}
@@ -105,8 +109,8 @@ const Banner = () => {
 
       <div className="w-full lgl:w-1/2 flex justify-center items-center ">
         <img
-          className="w-[300px] h-[350px] lgl:w-[500px] lgl:h-[680px] border-[1px] border-black rounded z-0"
-          src={me}
+          className="w-[300px] h-[300px] lgl:w-[400px] lgl:h-[500px]  rounded-full z-0 opacity-75"
+          src={profile}
           alt="bannerImg"
         />
         {/*<div className="absolute bottom-0 w-[700px] h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] 
