@@ -17,7 +17,7 @@ const Resume = () => {
       <Title title="6 YEARS OF EXPERIENCE" des="My Resume" />
       </div>
       <div>
-      <ul className="w-full grid grid-cols-4">
+      <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
       <li onClick={()=>setEducationData(true) & setSkillData(false) & setExperienceData(false) & setAchievementData (false)}
        className={`${educationData ? "border-designColor rounded-lg" : "border-transparent"} resumeLi`}>Education</li>
       <li onClick={()=>setEducationData(false) & setSkillData(true) & setExperienceData(false) & setAchievementData (false)} 
