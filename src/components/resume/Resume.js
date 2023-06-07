@@ -7,7 +7,7 @@ import Skills from './Skills'
 import { useState } from 'react'
 
 const Resume = () => {
- const [educationData, setEducationData] = useState(true);
+ const [educationData, setEducationData] = useState(false);
  const [skillData, setSkillData] = useState(false);
  const [experienceData, setExperienceData]= useState(false);
  const [achievementData, setAchievementData]= useState(false);
