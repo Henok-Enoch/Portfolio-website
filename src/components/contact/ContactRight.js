@@ -47,7 +47,6 @@ const ContactRight = () => {
       rounded-lg shadow-shadowOne"
     >
       <form 
-      ref={form}
       className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4">
         {errMsg && (
           <p

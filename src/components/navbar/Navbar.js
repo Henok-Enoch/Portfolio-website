@@ -1,10 +1,10 @@
-import React, {useState} from 'react'
-import {FiMenu} from "react-icons/fi"
-import {MdClose} from "react-icons/md";
+import React, { useState } from "react";
+import { FiMenu } from "react-icons/fi";
+import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {me} from "../../assets/index";
+import { me } from "../../assets/index";
 import { Link } from "react-scroll";
-import { navLinksdata } from '../../constants';
+import { navLinksdata } from "../../constants";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -113,6 +113,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
