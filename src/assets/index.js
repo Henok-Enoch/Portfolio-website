@@ -11,6 +11,8 @@ import Ecommerce from "./images/Ecommerce.webp";
 import hotelReservation from "./images/hotel reservation.jpeg"
 import Youtube from "./images/Youtube clone.png"
 import chat from "./images/chat app.png"
+import TestimonialOne from "./images/TestimonialOne.jpeg"
+import TestimonialThree from "./images/TestimonialThree.jpeg";
 
 export {
   logo,
@@ -22,6 +24,8 @@ export {
   Youtube,
   chat,
   testimonialTwo,
+  TestimonialOne,
+  TestimonialThree,
   quote,
   contactImg,
   me,

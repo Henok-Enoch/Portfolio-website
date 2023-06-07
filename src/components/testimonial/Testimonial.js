@@ -4,7 +4,7 @@ import { HiArrowRight, HiArrowLeft } from 'react-icons/hi';
 import Title from '../layouts/Title'
 import Slider from 'react-slick'
 import { RiStarFill } from "react-icons/ri"
-import {testimonialTwo, quote} from "../../assets";
+import {testimonialTwo, quote, TestimonialOne, TestimonialThree} from "../../assets";
 
 function SampleNextArrow(props) {
   const {onClick } = props;
@@ -89,7 +89,7 @@ const Testimonial = () => {
       className="w-full py-20 border-b-[1px] border-b-black text-white"
     >
       <div className="flex justify-center font-bold items-center text-center">
-        <Title title="WHAT CLIENTS SAY" des="Testimonial" />
+        <Title title="What Supervisors Say" des="Testimonial" />
       </div>
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
@@ -121,12 +121,9 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design{" "}
+                        Operation Officer{" "}
                       </h3>
-                      <p className=" text-base text-gray-400 mt-3">
-                        {" "}
-                        via Upwork Mar, 2015- aug, 2021
-                      </p>
+                      <p className=" text-base text-gray-400 mt-3"> </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
                       <RiStarFill />
@@ -136,12 +133,11 @@ const Testimonial = () => {
                       <RiStarFill />
                     </div>
                   </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Ölel halál az él e a nem fáj végett találhat menedékünk,
-                    vadon ellökött nagyon alatt fáj, La divinement extase
-                    termine c'est et. Mignard divin de grimace etre mais que
-                    beauté, la quel sincere souris mon vois. menekülsz is a
-                    dobál.
+                  <p className="text-base font-titleFont text-blue-400 font-medium tracking-wide leading-6">
+                    Henok is an exceptional front-end developer who consistently
+                    goes above and beyond to deliver high-quality work. His
+                    attention to detail and creative problem-solving skills have
+                    greatly contributed to the success of our projects.
                   </p>
                 </div>
               </div>
@@ -156,13 +152,13 @@ const Testimonial = () => {
               >
                 <img
                   className="w-35 h-auto lgl:w-72 rounded-lg object-cover"
-                  src={testimonialTwo}
-                  alt="testimonialTwo"
+                  src={TestimonialOne}
+                  alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <h3 className="text-2xl font-bold"> David Henry </h3>
+                  <h3 className="text-2xl font-bold"> John </h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Project Manager
                   </p>
                 </div>
               </div>
@@ -175,11 +171,12 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design{" "}
+                        {" "}
+                        Project Manager
                       </h3>
                       <p className=" text-base text-gray-400 mt-3">
                         {" "}
-                        via Upwork Mar, 2015- aug, 2021
+                        Project Manager
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -190,12 +187,11 @@ const Testimonial = () => {
                       <RiStarFill />
                     </div>
                   </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Ölel halál az él e a nem fáj végett találhat menedékünk,
-                    vadon ellökött nagyon alatt fáj, La divinement extase
-                    termine c'est et. Mignard divin de grimace etre mais que
-                    beauté, la quel sincere souris mon vois. menekülsz is a
-                    dobál.
+                  <p className="text-base font-titleFont text-blue-400 font-medium tracking-wide leading-6">
+                    Henok's ability to seamlessly translate designs into
+                    functional and visually stunning user interfaces is truly
+                    remarkable. He is a reliable team player, always eager to
+                    collaborate and share his expertise with colleagues.
                   </p>
                 </div>
               </div>
@@ -210,13 +206,13 @@ const Testimonial = () => {
               >
                 <img
                   className="w-35 h-auto lgl:w-72 rounded-lg object-cover"
-                  src={testimonialTwo}
-                  alt="testimonialTwo"
+                  src={TestimonialThree}
+                  alt="TestimonialThree"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <h3 className="text-2xl font-bold"> David Henry </h3>
+                  <h3 className="text-2xl font-bold"> Jasmine D. </h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Front End Developer
                   </p>
                 </div>
               </div>
@@ -229,12 +225,9 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design{" "}
+                        Front-end Developer{" "}
                       </h3>
-                      <p className=" text-base text-gray-400 mt-3">
-                        {" "}
-                        via Upwork Mar, 2015- aug, 2021
-                      </p>
+                      <p className=" text-base text-gray-400 mt-3"> </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
                       <RiStarFill />
@@ -244,12 +237,11 @@ const Testimonial = () => {
                       <RiStarFill />
                     </div>
                   </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Ölel halál az él e a nem fáj végett találhat menedékünk,
-                    vadon ellökött nagyon alatt fáj, La divinement extase
-                    termine c'est et. Mignard divin de grimace etre mais que
-                    beauté, la quel sincere souris mon vois. menekülsz is a
-                    dobál.
+                  <p className="text-base font-titleFont text-blue-400 font-medium tracking-wide leading-6">
+                    With Henok on our team, we can confidently tackle any
+                    front-end development challenge. His commitment to
+                    excellence is an invaluable asset, and I highly recommend
+                    him for any front-end development role.
                   </p>
                 </div>
               </div>

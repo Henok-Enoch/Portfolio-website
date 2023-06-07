@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
   return (
@@ -9,7 +9,7 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex gap-20"
     >
-      <div className="w-1/2">
+      <div className="w-full">
         <div className="py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">2006-2016</p>
           <h2 className="text-4xl font-bold">Education</h2>
@@ -19,26 +19,30 @@ const Experience = () => {
             border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
-            title="Master's Degree"
-            SubTitle="University of "
-            result="3.4/4"
-            des="an intensive master degree program that can enable students to enrich themselves in various cross-sectional knowledge...."
+            title="Front End Developer"
+            SubTitle="Walmart----USA"
+            result="July 2020-Present"
+            des="Day-to-day activities of developer on feature, bug, performance, analysis and design tasks.
+                 Agile environment and participating in daily standup, planning and retro, and more.
+                 Meeting with project managers/owners, testers, and team to discuss project planning, 
+                 resource allocation, and evaluation of stories."
           />
           <ResumeCard
-            title="Bachelor Degree"
-            subTitle="University from 2008-2013"
-            result="3.5/4"
-            des=" Bachelor Degree"
+            title="GEICO-----USA"
+            subTitle="Front End Developer"
+            result="April 2017-July 2020"
+            des=" Building applications, payment portals, 
+                 and chat boxes with React and Redux through building reusable components, native state management, and hierarchical authentication."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Preparatory School"
-            result="3.5/4"
-            des="Secondary education and University preparation school that take four years"
+            title="Freddie Mac---USA"
+            subTitle="Junior Web Developer"
+            result="September 2016-April 2017"
+            des="Javascript, HTML, and CSS implementation for designated page implementation Information gathering and analysis."
           />
         </div>
       </div>
-      <div className="w-1/2">
+      {/*<div className="w-1/2">
         <div className="py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">2017-2023</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
@@ -64,11 +68,11 @@ const Experience = () => {
             subTitle="Company Name"
             result="Country"
             des="description of What I did"
-          />
-        </div>
-      </div>
+  />
+        </div> 
+      </div>*/}
     </motion.div>
   );
-}
+};
 
-export default Experience
+export default Experience;

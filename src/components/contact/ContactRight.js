@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 
 const ContactRight = () => {
   const [username, setUsername] = useState("");
@@ -46,7 +46,9 @@ const ContactRight = () => {
       className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 
       rounded-lg shadow-shadowOne"
     >
-      <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4">
+      <form 
+      ref={form}
+      className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4">
         {errMsg && (
           <p
             className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b]
@@ -67,7 +69,7 @@ const ContactRight = () => {
         )}
         <div className="w-full flex-col lgl:flex-row gap-10">
           <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-            <p className="text-sm text-gray-400 uppercase tracking-wide">
+            <p className="text-sm text-white uppercase tracking-wide">
               Your Name
             </p>
             <input
@@ -80,7 +82,7 @@ const ContactRight = () => {
             />
           </div>
           <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-            <p className="text-sm text-gray-400 uppercase tracking-wide">
+            <p className="text-sm text-white uppercase tracking-wide">
               phone number
             </p>
             <input
@@ -94,7 +96,7 @@ const ContactRight = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-gray-400 uppercase tracking-wide">Email</p>
+          <p className="text-sm text-white uppercase tracking-wide">Email</p>
           <input
             onChange={(e) => setEmail(e.target.value)}
             value={email}
@@ -105,9 +107,7 @@ const ContactRight = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-gray-400 uppercase tracking-wide">
-            Subject
-          </p>
+          <p className="text-sm text-white uppercase tracking-wide">Subject</p>
           <input
             onChange={(e) => setSubject(e.target.value)}
             value={subject}
@@ -118,16 +118,14 @@ const ContactRight = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-gray-400 uppercase tracking-wide">
-            message
-          </p>
+          <p className="text-sm text-white uppercase tracking-wide">message</p>
           <textarea
             onChange={(e) => setMessage(e.target.value)}
             value={message}
             className={`${
               errMsg === "message is required!" && "outline-designColor"
             }
-                  "w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2
+                  "w-full rounded-lg border-b-[1px] border-b-gray-600 bg-white text-black px-4 py-2
                 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent 
                 duration-300 resize-none" `}
             cols="30"
@@ -139,7 +137,8 @@ const ContactRight = () => {
         <div className="w-full">
           <button
             onClick={handleSend}
-            className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300
+            className="w-full h-12 bg-[#141518] bg-blue-500 rounded-lg text-base text-white tracking-wider 
+              uppercase hover:text-white duration-300
               hover:border-[1px] hover:border-designColor border-transparent"
           >
             send message

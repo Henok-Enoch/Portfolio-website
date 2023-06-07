@@ -23,7 +23,8 @@ const Navbar = () => {
         <ul className="hidden mdl:inline-flex flex items-center gap-6 lgl:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base font-normal text-white tracking-wide cursor-pointer 
+              hover:text-designColor duration-300"
               key={_id}
             >
               <Link
@@ -43,7 +44,7 @@ const Navbar = () => {
         <span
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center
-    justify-center rounded-full text-designColor cursor-pointer"
+                     justify-center rounded-full text-designColor cursor-pointer"
         >
           <FiMenu />
         </span>
@@ -56,7 +57,7 @@ const Navbar = () => {
                   src={me}
                   alt="me"
                 />
-                <p className="text-sm text-gray-400 mt-2">
+                <p className="text-sm text-white-400 mt-2">
                   I'm a Full stack Web Developer with a 6+ years experience in
                   React.
                 </p>
@@ -65,7 +66,7 @@ const Navbar = () => {
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className="text-base font-normal text-gray-400 tracking-wide
+                    className="text-base font-normal text-white-400 tracking-wide
                   cursor-pointer hover:text-designColor duration-300"
                   >
                     <Link
@@ -101,7 +102,7 @@ const Navbar = () => {
               </div>
               <span
                 onClick={() => setShowMenu(false)}
-                className="absolute top-4 right-4 text-gray-400 hover:text-designColor 
+                className="absolute top-4 right-4 text-white-400 hover:text-designColor 
               duration-300 text-2xl cursor-pointer"
               >
                 <MdClose />

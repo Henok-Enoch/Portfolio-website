@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import ResumeCard from './ResumeCard';
+//import ResumeCard from './ResumeCard';
 
 const Achievement = () => {
   return (
@@ -9,7 +9,7 @@ const Achievement = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex gap-20"
     >
-      <div className="w-1/2">
+      {/*<div className="w-1/2">
         <div className="py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">2006-2016</p>
           <h2 className="text-4xl font-bold">Education</h2>
@@ -66,7 +66,7 @@ const Achievement = () => {
             des="description of What I did"
           />
         </div>
-      </div>
+  </div>*/}
     </motion.div>
   );
 }

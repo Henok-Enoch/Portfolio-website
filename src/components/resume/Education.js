@@ -8,7 +8,7 @@ const Education = () => {
       initial={{opacity:0}} 
       animate={{opacity:1, transition:{duration:.5}}} 
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20">
-      <div className="w-full lgl:w-1/2">
+      <div className="w-full">
       <div className="py:6 lgl:py-12 font-titleFont">
       <p className="text-sm text-designColor tracking-[4px]">
       2006-2016
@@ -21,23 +21,24 @@ const Education = () => {
         title="Master's Degree"
         SubTitle="University of "
         result="3.4/4"
-        des="an intensive master degree program that can enable students to enrich themselves in various cross-sectional knowledge...."
+        des="An intensive master degree program that can enable students to enrich themselves 
+        in various cross-sectional knowledge."
       />
       <ResumeCard 
       title="Bachelor Degree"
       subTitle="University from 2008-2013"
       result="3.5/4"
-      des=" Bachelor Degree"
+      des="Bachelor Degree"
       />
       <ResumeCard 
       title="Secondary School Education"
       subTitle="Preparatory School"
       result="3.5/4"
-      des="Secondary education and University preparation school that take four years"
+      des="Secondary education and University preparation school that take four years."
       />
       </div>
     </div>
-      <div className="w-full lgl:w-1/2">
+      {/*<div className="w-full lgl:w-1/2">
          <div className="py-6 lgl:py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">
           2017-2023
@@ -65,7 +66,7 @@ const Education = () => {
       des="description of What I did"
       />
       </div>
-      </div>
+  </div> */}
       </motion.div>
   )
 }

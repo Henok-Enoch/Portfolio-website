@@ -37,13 +37,12 @@ const Banner = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-            I'm a Full Stack Developer with 6 years of experience in
-            React and Node.js. I have a proven track record of delivering
-            responsive and cross-browser web applications, proficient
-            in HTML, CSS, JavaScript, React, and Redux, and worked
-            with various libraries and frameworks such as Bootstrap, Material
-            UI, TailwindCSS, and ExpressJs. Have experience in working with
-            MongoDB, Mongoose, and RESTful APIs.
+            I'm a Full Stack Developer with 6 years of experience in React and
+            Node.js. I have a proven track record of delivering responsive and
+            cross-browser web applications, proficient in HTML, CSS, JavaScript,
+            React, and Redux, and worked with various libraries and frameworks
+            such as Bootstrap, Material UI, TailwindCSS, and ExpressJs. Have
+            experience in working with MongoDB, Mongoose, and RESTful APIs.
           </p>
         </div>
 
